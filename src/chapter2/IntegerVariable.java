@@ -18,7 +18,7 @@ public class IntegerVariable {
 		long lVal = 12345678900L;  
 		// 쓸데없는 메모리를 차지하고 있는 비효율적인 코드 1줄로 왼쪽에 경고 표시가 생성되었다.
 		// 아래 코드를 활성화 시켜주면 경고 표시가 사라진다.
-		//System.out.println(lVal);
+		System.out.println(lVal);
 	}
 
 }
