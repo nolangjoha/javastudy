@@ -9,12 +9,12 @@ public class Cat implements Animal {
 	// 재정의 메서드라고 부를 수도 있다.
 	@Override
 	public void run() {
-
+		System.out.println("고양이가 달려갑니다.");
 	}
 
 	@Override
 	public void cry() {
-
+		System.out.println("고양이가 야옹하고 웁니다.ㄴ");
 	}
 
 }
