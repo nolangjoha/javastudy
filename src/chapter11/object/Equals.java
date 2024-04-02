@@ -58,6 +58,9 @@ public class Equals {
 		System.out.println(st3);
 		// st1=st2, st3눈 주소가 다르지만 들어있는 데이터는 같다. 데이터로 같게 처리해보자
 		*/
+		// 객체가 동일한지 비교될 때 내부적으로 Object클래스 equals()와 hashCode()가 사용된다.  
+		//7, "손흥민" 데이터가 같다면 동일한 객체로 인식되게 하자. 
+		//그러기 위해, Object클래스 equals()와 hashCode() 재정의를 해야 동일한 객체로 만들 수 있다.
 		
 		//주소비교
 		if(st1 == st2) {

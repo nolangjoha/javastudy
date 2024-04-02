@@ -9,9 +9,9 @@ public class MemberArrayListTest {
 		MemberArrayList memberArrayList = new MemberArrayList();
 		
 		Member memberSon = new Member(1001, "손흥민");
-		Member memberKim = new Member(1001, "김민재");
-		Member memberLee = new Member(1001, "이강인");
-		Member memberHwa = new Member(1001, "황희찬");
+		Member memberKim = new Member(1002, "김민재");
+		Member memberLee = new Member(1003, "이강인");
+		Member memberHwa = new Member(1004, "황희찬");
 		
 		memberArrayList.addMember(memberSon);
 		memberArrayList.addMember(memberKim);
