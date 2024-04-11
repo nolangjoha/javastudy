@@ -19,7 +19,7 @@ public class ArrayExceptionHandling {
 	
 		//예외 처리 문법
 		try {
-			//예외가 발생할 수 있는 코드
+			//예외가 발생할 수 있는 코드, 조건식을 i<5로 사용하면 예외가 발생하지 않아 catch구문이 진행되지 않는다.
 		for(int i=0; i<=5; i++) {		    //<=  :  '='연산자를 넣으면 오류 발생 
 			System.out.println(arr[i]);   
 			}
